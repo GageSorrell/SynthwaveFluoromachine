@@ -1,5 +1,9 @@
 # synthwave-x-fluoromachine
-This is a fork of @robbowen's [Synthwave '84 theme](https://marketplace.visualstudio.com/items?itemName=RobbOwen.synthwave-vscode), merged with @fullerenedream's [Fluoromachine](https://colorsublime.github.io/themes/FluoroMachine/) theme for VSCode. 
+This is a fork of @robbowen's [Synthwave '84 theme](https://marketplace.visualstudio.com/items?itemName=RobbOwen.synthwave-vscode), merged with @fullerenedream's [Fluoromachine](https://colorsublime.github.io/themes/FluoroMachine/) theme for VSCode.
+
+Furthermore, this is a fork of the [original fork](https://github.com/webrender/synthwave-x-fluoromachine), which removes the background perspective lines, makes the horizontal background lines darker, and makes the menu item selection color brighter.
+
+**The screenshsot below is of the original theme; it does not show the changes that I have made.**
 
 ![Theme screenshot](https://repository-images.githubusercontent.com/184457193/69dcff00-14d2-11ea-90e1-4bdf6fef80ca)
 
