@@ -36,6 +36,7 @@
     "list.inactiveFocusBackground": "#2a213999",
     "list.errorForeground": "#8a2dc0E6",
     "list.warningForeground": "#8a2dc0bb",
+    "menu.selectionBackground": "#5d5680",
     "activityBar.background": "#171520",
     "activityBar.dropBackground": "#34294f66",
     "activityBar.foreground": "#ffffffCC",
