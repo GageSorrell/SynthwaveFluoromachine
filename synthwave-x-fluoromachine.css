@@ -18,22 +18,11 @@
 
 .mtk8,
 .mtk9 {
-  /* color: #fd8902; */
   color: #ffcc00;
   text-shadow: 0 0 2px #100c0f, 0 0 3px #ffaa0099, 0 0 5px #ffaa0099,
     0 0 10px #ffaa0099;
   font-style: italic;
 }
-
-/* .mtk7 {
-  color: #8a2dc0;
-  text-shadow: 0 0 2px #000, 0 0 10px #8a2dc066, 0 0 5px #8a2dc066, 0 0 25px #8a2dc066;
-} */
-
-/* .mtk8 {
-  color: #72f1b8;
-  text-shadow: 0 0 2px #100c0f, 0 0 10px #257c55, 0 0 35px #212724;
-} */
 
 .mtk7,
 .mtk10 {
@@ -79,41 +68,20 @@
   overflow: hidden;
 }
 
-.editor-group-container:after {
-  content: "";
-  height: 300px;
-  width: 100%;
-  display: block;
-  background-image: linear-gradient(
-      90deg,
-      rgba(252, 25, 154, 0.1) 1px,
-      rgba(0, 0, 0, 0) 1px
-    ),
-    linear-gradient(0deg, rgba(252, 25, 154, 0.1) 1px, rgba(0, 0, 0, 0) 1px);
-  background-position: bottom;
-  background-repeat: repeat;
-  background-size: 20px 20px;
-  left: -25px;
-  position: absolute;
-  pointer-events: none;
-  bottom: 0;
-  transform: perspective(100px) rotateX(60deg);
-  z-index: 0;
 }
 .editor-group-container {
   position: relative;
   overflow: hidden;
 }
 
-/* .monaco-editor > .overflow-guard > .monaco-scrollable-element:before { */
 .monaco-editor:before,
 .editor-group-container:before {
   background-image: repeating-linear-gradient(
     to bottom,
     transparent 0,
     transparent 2px,
-    #fff 2px,
-    #fff 4px
+    #888888 2px,
+    #888888 4px
   );
   background-size: 100% 4px cover;
   transform-origin: 50% 50%;
@@ -125,10 +93,6 @@
   right: 0;
   bottom: 0;
 }
-
-/* .monaco-editor .overflow-guard .margin {
-    background: #210A33;
-} */
 
 canvas {
   z-index: 2;
